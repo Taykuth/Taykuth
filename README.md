@@ -1,32 +1,30 @@
-# Bora Taykut Hindal — AI Engineer
+# Bora Taykut Hindal
 
-Building end-to-end AI systems: from training custom models to shipping production-grade applications.
+**AI Engineer · Python Backend Developer** · Gebze, Kocaeli, Türkiye
 
-## Focus Areas
-- LLM-based systems & RAG architectures
-- GNN & deep learning (biomedical AI)
-- Full-stack AI product development
-- E-commerce automation
+AI Engineering graduate (OSTİM Technical University, 2026) with three internships in machine learning and LLM automation. At Skywalker.tc I built a Python pipeline that writes SEO product descriptions for brand catalogs on Trendyol, with rule-based checks and a human review step before anything is published. I work mostly in Python and FastAPI, and build React/Next.js interfaces for AI tools.
 
-## Tech Stack
+## Projects
 
-**AI & ML:** Python · PyTorch · PyTorch Geometric · Hugging Face · PEFT/LoRA · scikit-learn  
-**LLM & RAG:** OpenAI API · FAISS · Sentence-Transformers · Prompt Engineering  
-**Backend:** FastAPI · Node.js · tRPC · Drizzle · Prisma  
-**Frontend:** Next.js · React · TypeScript · Tailwind CSS  
-**Infra:** AWS S3 · Docker · Stripe · Git  
+| Project | What it is | Evidence |
+| --- | --- | --- |
+| [Kocaeli Factory Intelligence](https://taykuth.github.io/kocaeli-factory-intelligence/) | Predictive-maintenance prototype: machine telemetry → anomaly score, 24-hour failure risk and a maintenance action, in a dashboard for shift teams. | [Live demo](https://taykuth.github.io/kocaeli-factory-intelligence/) · temporal holdout on synthetic telemetry: precision 65.8%, recall 52.9%, false-alarm rate 19.4% · [source](https://github.com/Taykuth/Taykuth.github.io/tree/main/kocaeli-factory-intelligence) |
+| [Trendyol SEO Description Pipeline](https://github.com/Taykuth/seo-ai-trendyol-product-description) | Internship work: Trendyol Seller API → OpenAI → rule checks (banned claims, HTML, length) with retries → Excel review sheet for a person. | 36-product catalog: average description length 40 → 118 words, all outputs passed the checks |
+| [Clinic AI Chatbot](https://github.com/Taykuth/ClinicChatBotAi) | Turkish chatbot for dental and aesthetic clinics. Answers from a clinic profile, refuses to diagnose, sends appointment requests to WhatsApp. | FastAPI · history sanitising against prompt override · rate limit · 7 tests |
+| [NeoBioAI](https://github.com/Taykuth/NeoBioAI) | Graduation thesis: GINEConv graph neural network that predicts binding affinity (pKd) from ligand structure, served with FastAPI and Next.js. | PDBBind v2020 subset, test RMSE 1.56, Pearson r 0.63 · limitations documented |
 
-## Featured Projects
+Smaller repositories: [sports-llm-rag](https://github.com/Taykuth/sports-llm-rag) (LoRA + RAG learning notebook), [ai-job-agent](https://github.com/Taykuth/ai-job-agent) (CV-tailoring app prototype generated with Manus), [white-label-ecommerce](https://github.com/Taykuth/white-label-ecommerce) (Next.js storefront for the Turkish market).
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [NeoBioAI](https://github.com/Taykuth/NeoBioAI) | Protein-ligand binding affinity prediction — 600x faster than molecular docking | PyTorch · GNN · FastAPI |
-| [ai-job-agent](https://github.com/Taykuth/ai-job-agent) | LLM SaaS for CV parsing and role-tailored resume generation | TypeScript · Next.js · Stripe |
-| [ClinicChatBotAi](https://github.com/Taykuth/ClinicChatBotAi) | GPT-4o powered 24/7 clinic chatbot with WhatsApp routing | Python · FastAPI · OpenAI |
-| [seo-ai-trendyol](https://github.com/Taykuth/seo-ai-trendyol-product-description) | LLM pipeline for SEO-optimized product descriptions | Python · OpenAI · Pandas |
-| [sports-llm-rag](https://github.com/Taykuth/sports-llm-rag) | LoRA fine-tuning + FAISS RAG pipeline benchmarked with P/R/F1 | HuggingFace · PEFT · FAISS |
+## Experience
+
+- **SEO Intern (LLM Automation), Skywalker.tc**, Jan–Jul 2026. Trendyol content pipeline above, plus the Next.js review interface for AI-generated product images in a 10-person team.
+- **AI Engineering Intern, İsTeknolojileri**, Jan–May 2025. Data preprocessing and scikit-learn experiments.
+- **Machine Learning Engineering Intern, Mavinci**, Jan–May 2024. ML dataset preparation with SQL and pandas.
+
+## Tools
+
+**Python** · FastAPI · pandas · scikit-learn · PyTorch · PyTorch Geometric · OpenAI API · Hugging Face · SQL · TypeScript · React · Next.js · Docker · Git
 
 ## Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/bora-taykut-hindal)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=github&logoColor=white)](https://taykuth.github.io)
+[LinkedIn](https://linkedin.com/in/borataykuthindal) · [Portfolio](https://taykuth.github.io) · btaykuthindal@gmail.com
